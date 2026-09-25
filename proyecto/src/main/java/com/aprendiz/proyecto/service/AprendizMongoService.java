@@ -22,7 +22,7 @@ public class AprendizMongoService {
 
     public boolean eliminarAprendiz(String id) {
         if (!aprendizMongoRepository.existsById(id)) {
-            return false
+            return false;
         }
         aprendizMongoRepository.deleteById(id);
         return true;
