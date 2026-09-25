@@ -1,0 +1,7 @@
+target/
+.git/
+.idea/
+*.log
+# No copiar credenciales locales a la imagen
+.env
+*.env.local
