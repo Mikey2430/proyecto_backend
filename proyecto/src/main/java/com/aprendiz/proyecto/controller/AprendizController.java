@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/aprendiz")
-@CrossOrigin(origins = {"http://localhost:5173", "https://TU-FRONT.vercel.app"})
+@CrossOrigin(origins = "http://localhost:5173")
 
 public class AprendizController {
     @Autowired
