@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/aprendiz/mongo")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://proyecto-backend-gjry.onrender.com/api/v1/aprendiz"})
 
 public class AprendizMongoController {
     @Autowired
